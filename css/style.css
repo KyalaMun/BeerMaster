@@ -1,9 +1,6 @@
-.beer-color1{
+:root{
     --beer-color1: #ffbe5a;
-}
-
-.beer-color2{
-    --beer-color2: #F4faff;
+    --beer-color2: #F4faff
 }
 
 .card-header {
@@ -25,11 +22,17 @@
 }
 
 .header-tagline{
-    font-size: 18px;
+    font-size: 14px;
+}
+
+.card-body{
+    top: 50%;
 }
 
 .card-footer {
     background-color: var(--beer-color1);
-    border: 15px;
-    border-color: black;
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    bottom: 0;
 }
