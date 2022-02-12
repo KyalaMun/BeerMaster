@@ -3,8 +3,7 @@
     --beer-color2: #F4faff;
 }
 
-.card-header {
-    position: fixed;
+header {
     top: 0;
     left: 0;
     width: 100%;
@@ -13,6 +12,13 @@
     font-weight: bold;
     align-items: left;
     font-size: 24px;
+    overflow: hidden;
+
+}
+
+.header-name{
+    white-space: nowrap;
+    display: inline-block;
 }
 
 .header-link {
@@ -22,17 +28,14 @@
 }
 
 .header-tagline{
+    display: block;
     font-size: 14px;
 }
 
-.card-body{
-    top: 50%;
-}
-
-.card-footer {
+.footer {
     background-color: var(--beer-color1);
     width: 100%;
-    margin-left: -17px;
     position: fixed;
     bottom: 0;
 }
+    
