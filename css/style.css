@@ -97,3 +97,20 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+/* About */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item{
+    width: 30%;
+}
+
+.about-img{
+    width: 380px;
+    height: 250px;
+    background: linear-gradient(to bottom, #ed765e, #fea858);
+}
