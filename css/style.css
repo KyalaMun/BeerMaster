@@ -16,23 +16,23 @@ header {
 
 }
 
-.header-name{
-    white-space: nowrap;
-    display: inline-block;
+main{
+    
+    
 }
 
 .header-link {
     font-size: 14px;
-    margin-left: 1,5px;
-    margin-left: 1em;
+    padding: 0%;
 }
 
-.header-tagline{
-    display: block;
+#header-tagline{
+    display: inline-block;
     font-size: 14px;
+    
 }
 
-.footer {
+footer {
     background-color: var(--beer-color1);
     width: 100%;
     position: fixed;
