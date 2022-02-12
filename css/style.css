@@ -1,7 +1,30 @@
-:root{
+/* Вводим переменные цветов */
+:root {
     --beer-color1: #ffbe5a;
     --beer-color2: #F4faff;
 }
+/* Использовать с помощью var(--beer-color1) */
+
+
+/* Подключение шрифтов */
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../fonts/Roboto/RobotoSlab-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../fonts/Roboto/RobotoSlab-Bold.ttf);
+    font-style: bold;
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../fonts/Roboto/RobotoSlab-Light.ttf);
+    font-weight: 300;
+}
+/* Подключение шрифтов */
 
 header {
     top: 0;
@@ -16,56 +39,56 @@ header {
 
 }
 
-.section{
+.section {
     padding: 80px 0;
 }
 
-.section__header{
-width: 100%;
-max-width: 950px;
-margin: 0 auto 40px;
-
-text-align: center;
+.section-header {
+    font-family: "RobotoSlab", normal;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
 }
 
-.section__suptitle
-{
-font-family: "Roboto Slab", cursive;
-font-size: 24px;
-color: #333;
+.section-subtitle {
+    font-size: 24px;
+    color: #333;
 }
 
-.section_title{
-text-transform: uppercase;
-font-weight: 700;
-font-size: 30px;
-color: #333;
+.section-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333;
 }
 
-.section_title:after{
-content:"" ;
-display: block;
-width: 60px;
-height: 3px;
-margin: 40px auto 20px;
+.section-title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 20px auto 20px;
 
-background-color: #ffbe5a;
+    background-color: var(--beer-color1);
 }
-    
-.section_text{
+
+.section-verse {
     font-size: 15px;
     color: #999;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .header-link {
     font-size: 14px;
     padding: 0%;
+    text-decoration: none;
 }
 
-#header-tagline{
+#header-tagline {
     display: inline-block;
     font-size: 14px;
-    
+
 }
 
 footer {
