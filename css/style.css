@@ -2,6 +2,7 @@
 :root {
     --beer-color1: #ffbe5a;
     --beer-color2: #F4faff;
+    --beer-color3: #1d72a7;
 }
 /* Использовать с помощью var(--beer-color1) */
 
@@ -39,11 +40,8 @@ header {
 
 }
 
-.section {
-    padding: 80px 0;
-}
-
-.section-header {
+.greeting-header {
+    padding: 150px 0;
     font-family: "RobotoSlab", normal;
     width: 100%;
     max-width: 950px;
@@ -51,19 +49,14 @@ header {
     text-align: center;
 }
 
-.section-subtitle {
-    font-size: 24px;
-    color: #333;
-}
-
-.section-title {
+.greeting-title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
     color: #333;
 }
 
-.section-title:after {
+.greeting-title:after {
     content: "";
     display: block;
     width: 60px;
@@ -73,7 +66,7 @@ header {
     background-color: var(--beer-color1);
 }
 
-.section-verse {
+.greeting-verse {
     font-size: 15px;
     color: #999;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -86,15 +79,12 @@ header {
 }
 
 #header-tagline {
-    display: inline-block;
     font-size: 14px;
-
 }
 
 footer {
     background-color: var(--beer-color1);
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
 
