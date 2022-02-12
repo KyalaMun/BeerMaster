@@ -88,19 +88,8 @@ footer {
     bottom: 0;
 }
 
-/* About */
-
-.about{
-    display: flex;
-    justify-content: space-between;
+.btn-more{
+    background-color: var(--beer-color3);
+    color: var(--beer-color2);
 }
 
-.about-item{
-    width: 30%;
-}
-
-.about-img{
-    width: 380px;
-    height: 250px;
-    background: linear-gradient(to bottom, #ed765e, #fea858);
-}
