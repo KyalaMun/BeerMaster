@@ -4,6 +4,7 @@
     --beer-color2: #F4faff;
     --beer-color3: #1d72a7;
 }
+
 /* Использовать с помощью var(--beer-color1) */
 
 
@@ -25,6 +26,7 @@
     src: url(../fonts/Roboto/RobotoSlab-Light.ttf);
     font-weight: 300;
 }
+
 /* Подключение шрифтов */
 
 header {
@@ -88,14 +90,13 @@ footer {
     bottom: 0;
 }
 
-.btn-more{
+.btn-more {
     background-color: var(--beer-color3);
     color: var(--beer-color2);
 }
 
-/* Картинки */
-.image{
-margin-top: 15px;
+
+.beer-cards {
+
+    background: linear-gradient(#a96f44, #f2ecb6);
 }
-
-
